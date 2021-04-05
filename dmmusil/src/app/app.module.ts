@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
+import { AngularOnGithubPagesComponent } from './posts/angular-on-github-pages/angular-on-github-pages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    MainComponent
+    MainComponent,
+    AngularOnGithubPagesComponent
   ],
   imports: [
     BrowserModule,

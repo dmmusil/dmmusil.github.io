@@ -1,0 +1,63 @@
+<h2>Angular on Github Pages</h2>
+<h6>April 5th, 2021</h6>
+<p class="mt-3">
+  I've attempted many personal sites over the years. Lack of necessity and
+  perceived difficulty in setting one up have always been a deterrent. Or
+  perhaps it's just plain laziness.
+</p>
+<p>
+  I was busy making some tweaks to our Angular deployment last week and I
+  realized that I could use it for my own page. It's just a few static files
+  after all the building is done and it would provide some more interactivitiy
+  and be more fun than your typical generated static site.
+</p>
+<p>
+  After a quick look at the Github Pages docs, I knew it would be a matter of
+  running <code>ng build --prod</code> and then uploading the
+  <code>dist</code> output.
+</p>
+<p>
+  Luckily it's made even easier with
+  <a
+    href="https://github.com/angular-schule/angular-cli-ghpages"
+    target="_blank"
+    >angular-cli-ghpages</a
+  >. Add it to your dev dependencies and run <code>ng deploy</code> with a few
+  arguments and you're off. Throw in a Github action and you're free to just
+  worry about writing code.
+</p>
+<h5>Github Action Contents</h5>
+<pre ngNonBindable>
+name: Deploy to GitHub Pages via angular-cli-ghpages
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "14"
+
+      - name: Prepare and deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dmmusil
+          npm install
+          npm run ng -- deploy --branch=master --no-silent --name "Dylan Musil" --email "dmmusil@ncsu.edu"
+</pre>
+<p>
+  For this site I chose to write code on the <code>develop</code> branch and run
+  the site from the <code>master</code> branch. That's all handled easily with
+  the action.
+</p>
