@@ -54,10 +54,12 @@ jobs:
         run: |
           cd dmmusil
           npm install
-          npm run ng -- deploy --branch=master --no-silent --name "Dylan Musil" --email "dmmusil@ncsu.edu"
+          npm run ng -- deploy --branch=main --no-silent --name "Dylan Musil" --email "dmmusil@ncsu.edu"
 </pre>
 <p>
   For this site I chose to write code on the <code>develop</code> branch and run
-  the site from the <code>master</code> branch. That's all handled easily with
-  the action.
+  the site from the <code>main</code> branch. That's all handled easily with the
+  action. Commits to <code>develop</code> trigger the action and the output of
+  the build is pushed to <code>main</code>. This lets the development branch
+  keep a clean history without having deployment pushes interleaved.
 </p>
