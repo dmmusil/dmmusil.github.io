@@ -18,16 +18,10 @@ jobs:
         with:
           node-version: "14"
 
-      - name: Preserve CNAME
-        run: |
-          mkdir dmmusil/dist
-          mkdir dmmusil/dist/dmmusil
-          echo dylan.musil.dev > dmmusil/dist/dmmusil/CNAME
-
       - name: Prepare and deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd dmmusil
           npm install
-          npm run ng -- deploy --branch=main --no-silent --name "Dylan Musil" --email "dmmusil@ncsu.edu"
+          npm run ng -- deploy --branch=main --no-silent --name "Dylan Musil" --email "dmmusil@ncsu.edu" --cname=dylan.musil.dev
