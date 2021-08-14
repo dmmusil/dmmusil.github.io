@@ -19,7 +19,10 @@ jobs:
           node-version: "14"
 
       - name: Preserve CNAME
-        run: echo dylan.musil.dev dmmusil/dist/dmmusil/CNAME
+        run: |
+        mkdir dmmusil/dist
+        mkdir dmmusil/dist/dmmusil
+        echo dylan.musil.dev dmmusil/dist/dmmusil/CNAME
 
       - name: Prepare and deploy
         env:
