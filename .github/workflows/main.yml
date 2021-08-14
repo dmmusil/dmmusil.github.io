@@ -20,9 +20,9 @@ jobs:
 
       - name: Preserve CNAME
         run: |
-        mkdir dmmusil/dist
-        mkdir dmmusil/dist/dmmusil
-        echo dylan.musil.dev dmmusil/dist/dmmusil/CNAME
+          mkdir dmmusil/dist
+          mkdir dmmusil/dist/dmmusil
+          echo dylan.musil.dev dmmusil/dist/dmmusil/CNAME
 
       - name: Prepare and deploy
         env:
