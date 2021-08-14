@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: "14"
 
+      - name: Preserve CNAME
+        run: echo dylan.musil.dev dmmusil/dist/dmmusil/CNAME
+
       - name: Prepare and deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
