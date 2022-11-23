@@ -6,10 +6,15 @@ import { AngularOnGithubPagesComponent } from './posts/angular-on-github-pages/a
 import { AzureSqlServerlessComponent } from './posts/azure-sql-serverless/azure-sql-serverless.component';
 
 const routes: Routes = [
-  { path: '', component: MainComponent },
+  { 
+    path: '', 
+    component: MainComponent,
+    title: 'Dylan Musil'
+  },
   {
     path: 'about',
     component: AboutComponent,
+    title: 'Dylan Musil'
   },
   {
     path: 'posts',
