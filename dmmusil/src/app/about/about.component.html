@@ -19,16 +19,16 @@
   <h5>Preferred tools</h5>
   <ul>
     <li>
-      C# | .NET Core/5/6 and ASP.NET Core | Docker | Kubernetes | SQL Server |
-      PostgreSQL | Entity Framework | Terraform | Github Actions | Azure
-      Pipelines | Datadog | Jetbrains IDEs and performance tools
+      C# | .NET Core/5/6 and ASP.NET Core | Docker | Kubernetes/AKS | SQL Server
+      | Redis | PostgreSQL | Entity Framework | Terraform | Github Actions |
+      Azure Pipelines | Datadog | Jetbrains IDEs and performance tools
     </li>
   </ul>
   <h5>Other daily drivers</h5>
   <ul>
     <li>
-      IIS | Azure App Service, Web jobs, Service Bus, Cloud Services, AKS | .NET
-      Framework | ASP.NET MVC
+      IIS | Azure App Service, Web jobs, Service Bus | .NET Framework | ASP.NET
+      MVC
     </li>
   </ul>
   <h5>Tech I've used at other jobs</h5>
@@ -79,11 +79,6 @@
               managing local, remote, and production databases. Added fully
               automated database pipeline that removed the need for manually
               running scripts during releases.
-            </li>
-            <li>
-              Simplified management of local development environments with
-              Docker Compose for running and managing all infrastructure
-              dependencies. Used Terraform to automate cloud-only dependencies.
             </li>
           </ul>
         </li>
@@ -149,13 +144,24 @@
               required extensive optimization of network chattiness as App
               Services were a bit more resource constrained. Specifically this
               included optimizing the way the app uses Redis. I implemented a
-              layered caching strategy to reduce the amount of Redis calls by
-              90%. This improved latency of the web requests by over 50%.
+              layered caching strategy using Redis pub/sub and in-memory caching
+              to reduce the amount of Redis calls by 50%. This improved latency
+              of the web requests by over 50%.
             </li>
             <li>
               Support a dozen product teams as they create and deploy new
               software components. Educate them on building pipelines, automated
               test suites, and monitoring and logging.
+            </li>
+            <li>Automate deployment of Elasticsearch changes.</li>
+            <li>
+              Automate creation of SQL Server container whenever database
+              changes are merged. This container is used for local integration
+              and acceptance testing of database or Entity Framework code
+              changes. Additionally this container is used in PR checks to speed
+              them up when there are no database changes. Rather than building
+              the database from scratch we can reuse the existing image to run
+              tests against.
             </li>
           </ul>
         </li>
@@ -164,9 +170,49 @@
           2023
           <ul>
             <li>
+              Improve local monitoring for Redis with MiniProfiler to detect
+              duplicate calls. Set up Seq to improve the local logging
+              experience.
+            </li>
+            <li>
               Participate in migration of Elasticsearch hosting from VMs to
-              Kubernetes using Elastic Cloud on Kubernetes. Setup monitoring and
-              automated deployments for dozens of ECK clusters.
+              Kubernetes using Elastic Cloud on Kubernetes. Set up monitoring
+              and automated deployments for dozens of ECK clusters.
+            </li>
+            <li>
+              Reduce provisioning time for new services from days to hours by
+              creating reusable Github workflows, Helm charts, template
+              repositories, and Nuget packages. Lead training sessions on use of
+              these tools to empower teams to own their deployments and
+              configuration.
+            </li>
+            <li>
+              Research and implement managed workload identity to allow
+              applications to access infrastructure without needing to use
+              secrets. No more secret rotation or manual configuration changes!
+            </li>
+            <li>
+              Continue to advocate for and demonstrate automated testing and TDD
+              to allow increased speed and innovation while ensuring high
+              quality output.
+            </li>
+            <li>
+              Simplified management of local development environments with
+              Docker Compose for running and managing all infrastructure
+              dependencies. This includes Redis, Elasticsearch, SQL Server, and
+              a custom messaging solution to allow the two data stores to stay
+              in sync using the existing code and infrastructure. Provide
+              automated tooling to set up and maintain local environments
+              whenever new changes are submitted that affect the data or
+              schemas. Produce and execute training and provide support for the
+              roll out of the improved local development experience.
+            </li>
+            <li>
+              Design overall modernization of development and deployment
+              practices, mainly consisting of deploying more parts of the system
+              from version control instead of synchronizing from a shared
+              development environment. Remove cumbersome manual steps from
+              various processes including database and localization deployments.
             </li>
           </ul>
         </li>
