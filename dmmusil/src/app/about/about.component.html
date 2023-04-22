@@ -1,15 +1,15 @@
 <div class="container">
   <h2>About me</h2>
   <div class="d-flex justify-content-center mb-5">
-    <img src="../../assets/me.jpg" style="border-radius: 50%;" />
+    <img src="../../assets/me.jpg" style="border-radius: 50%" />
   </div>
 
   <p>
     I'm a backend developer at
     <a href="https://degreed.com/about" target="_blank">Degreed</a>
-    who focuses on developer experience and our DevOps transformation. I love
-    making dev work more enjoyable by making things easier to use and faster to
-    set up, change, and deploy.
+    who focuses on developer experience and our DevOps transformation. I am
+    passionate about making dev work more enjoyable by making things easier to
+    use and faster to set up, change, and deploy.
   </p>
   <p>
     I live in the Finger Lakes region of New York where I spend the summers
@@ -50,91 +50,129 @@
       </p>
       <ul>
         <li>
-          Started containerizing applications and set up initial POC of running
-          the stack in Kubernetes.
+          2020
+          <ul>
+            <li>
+              Started containerizing applications and set up initial POC of
+              running the stack in Kubernetes.
+            </li>
+            <li>
+              Championed and executed migration from self-hosted TeamCity to a
+              combination of Github Actions and Azure Pipelines.
+            </li>
+            <li>
+              Reduced deployment times from 50-90% by using "build once, deploy
+              many" and blue-green deployments.
+            </li>
+            <li>
+              Set up monitoring, alerting, and dashboards for all development
+              and production environments in Datadog. Provide support to teams
+              desiring to set up their own detailed dashboards and monitoring.
+              Serve as Datadog SME.
+            </li>
+            <li>
+              Provide tier 2 SRE support as required. Diagnose, triage, and fix
+              high severity issues with urgency.
+            </li>
+            <li>
+              Develop database automation enabling use of the same tools for
+              managing local, remote, and production databases. Added fully
+              automated database pipeline that removed the need for manually
+              running scripts during releases.
+            </li>
+            <li>
+              Simplified management of local development environments with
+              Docker Compose for running and managing all infrastructure
+              dependencies. Used Terraform to automate cloud-only dependencies.
+            </li>
+          </ul>
         </li>
+
         <li>
-          Championed and executed migration from self-hosted TeamCity to a
-          combination of Github Actions and Azure Pipelines.
+          2021
+          <ul>
+            <li>
+              Identified and fixed performance issues that resulted in a 50%
+              reduction in global response times. Cost savings from the change
+              were nearly $4,000 per month in web server compute costs.
+            </li>
+            <li>
+              Member of architecture guild and subsequent architecture board.
+              Frequent RFC contributor.
+            </li>
+            <li>
+              Consulted on and supported .NET Framework -> .NET 5/6 migration of
+              application components.
+            </li>
+            <li>
+              Support horizontal scale effort through automation and back-end
+              code contribution. Added ability to deploy schema changes to an
+              arbitrary number of databases defined in Cosmos DB documents.
+            </li>
+            <li>
+              Refresh database automation from Powershell to C# to support the
+              ability to more easily consume .NET APIs and be highly tested.
+            </li>
+            <li>
+              Participate in planning for modularizing the monolith and building
+              event-driven architecture.
+            </li>
+            <li>
+              Explored and recommended approaches to improve database
+              deployments by leveraging backwards compatible changes.
+            </li>
+            <li>
+              Design, implement, and educate peers on new integration testing
+              framework to allow Entity Framework code changes for .NET
+              migration to be highly tested.
+            </li>
+          </ul>
         </li>
+
         <li>
-          Reduced deployment times from 50-90% by using "build once, deploy
-          many" and blue-green deployments.
+          2022
+          <ul>
+            <li>
+              Constantly searching for and making changes to improve the speed
+              of deployments, tests, and PR checks to allow developers to spend
+              less time waiting and more time doing.
+            </li>
+            <li>
+              Implement hosting and deployment patterns that enable continuous
+              delivery in new services using Kubernetes, Docker, Github Actions,
+              and Terraform. Train teams on how to build, operate, and maintain
+              CD pipelines and implement.
+            </li>
+            <li>
+              Guide migration of primary application hosting from the deprecated
+              Azure Cloud Services to the more modern Azure App Services. This
+              required extensive optimization of network chattiness as App
+              Services were a bit more resource constrained. Specifically this
+              included optimizing the way the app uses Redis. I implemented a
+              layered caching strategy to reduce the amount of Redis calls by
+              90%. This improved latency of the web requests by over 50%.
+            </li>
+            <li>
+              Support a dozen product teams as they create and deploy new
+              software components. Educate them on building pipelines, automated
+              test suites, and monitoring and logging.
+            </li>
+          </ul>
         </li>
+
         <li>
-          Set up monitoring, alerting, and dashboards for all development and
-          production environments in Datadog. Provide support to teams desiring
-          to set up their own detailed dashboards and monitoring. Serve as
-          Datadog SME.
-        </li>
-        <li>
-          Provide tier 2 SRE support as required. Diagnose, triage, and fix high
-          severity issues with urgency.
-        </li>
-        <li>
-          Develop database automation enabling use of the same tools for
-          managing local, remote, and production databases. Added fully
-          automated database pipeline that removed the need for manually running
-          scripts during releases.
-        </li>
-        <li>
-          Simplified management of local development environments with Docker
-          Compose for running and managing all infrastructure dependencies. Used
-          Terraform to automate cloud-only dependencies.
-        </li>
-        <li>
-          Identified and fixed performance issues that resulted in a 50%
-          reduction in global response times. Cost savings from the change were
-          nearly $4,000 per month in web server compute costs.
-        </li>
-        <li>
-          Member of architecture guild and subsequent architecture board.
-          Frequent RFC contributor.
-        </li>
-        <li>
-          Consulted on and supported .NET Framework -> .NET 5/6 migration of
-          application components.
-        </li>
-        <li>
-          Support horizontal scale effort through automation and back-end code
-          contribution. Added ability to deploy schema changes to an arbitrary
-          number of databases defined in Cosmos DB documents.
-        </li>
-        <li>
-          Refresh database automation from Powershell to C# to support the
-          ability to more easily consume .NET APIs and be highly tested.
-        </li>
-        <li>
-          Participate in planning for modularizing the monolith and building
-          event-driven architecture.
-        </li>
-        <li>
-          Explored and recommended approaches to improve database deployments by
-          leveraging backwards compatible changes.
-        </li>
-        <li>
-          Design, implement, and educate peers on new integration testing
-          framework to allow Entity Framework code changes for .NET migration to
-          be highly tested.
-        </li>
-        <li>
-          Constantly searching for and making changes to improve the speed of
-          deployments, tests, and PR checks to allow developers to spend less
-          time waiting and more time doing.
-        </li>
-        <li>
-          Implement hosting and deployment patterns that enable continuous
-          delivery in new services using Kubernetes, Docker, Github Actions, and
-          Terraform. Train teams on how to operate CD pipelines.
-        </li>
-        <li>
-          Guide migration of primary application hosting from the deprecated 
-          Azure Cloud Services to the more modern Azure App Services. This required
-          extensive optimization of network chattiness as App Services were a bit
-          more resource constrained.
+          2023
+          <ul>
+            <li>
+              Participate in migration of Elasticsearch hosting from VMs to
+              Kubernetes using Elastic Cloud on Kubernetes. Setup monitoring and
+              automated deployments for dozens of ECK clusters.
+            </li>
+          </ul>
         </li>
       </ul>
     </li>
+
     <li>
       Architecture team - October 2019 to May 2020
       <ul>
