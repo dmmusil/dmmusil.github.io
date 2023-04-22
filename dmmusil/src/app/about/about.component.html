@@ -50,7 +50,7 @@
       </p>
       <ul>
         <li>
-          2020
+          2020 - modernizing deployments and monitoring
           <ul>
             <li>
               Started containerizing applications and set up initial POC of
@@ -71,11 +71,11 @@
               Serve as Datadog SME.
             </li>
             <li>
-              Provide tier 2 SRE support as required. Diagnose, triage, and fix
-              high severity issues with urgency.
+              Provided tier 2 SRE support as required. Diagnosed, triaged, and
+              fixed high severity issues with urgency.
             </li>
             <li>
-              Develop database automation enabling use of the same tools for
+              Developed database automation enabling use of the same tools for
               managing local, remote, and production databases. Added fully
               automated database pipeline that removed the need for manually
               running scripts during releases.
@@ -84,7 +84,7 @@
         </li>
 
         <li>
-          2021
+          2021 - planning for .NET migration and modular monolith
           <ul>
             <li>
               Identified and fixed performance issues that resulted in a 50%
@@ -100,63 +100,65 @@
               application components.
             </li>
             <li>
-              Support horizontal scale effort through automation and back-end
+              Supported horizontal scale effort through automation and back-end
               code contribution. Added ability to deploy schema changes to an
               arbitrary number of databases defined in Cosmos DB documents.
             </li>
             <li>
-              Refresh database automation from Powershell to C# to support the
+              Refreshed database automation from Powershell to C# to support the
               ability to more easily consume .NET APIs and be highly tested.
             </li>
             <li>
-              Participate in planning for modularizing the monolith and building
-              event-driven architecture.
+              Participated in planning for modularizing the monolith and
+              building event-driven architecture.
             </li>
             <li>
               Explored and recommended approaches to improve database
               deployments by leveraging backwards compatible changes.
             </li>
             <li>
-              Design, implement, and educate peers on new integration testing
-              framework to allow Entity Framework code changes for .NET
+              Designed, implemented, and educated peers on new integration
+              testing framework to allow Entity Framework code changes for .NET
               migration to be highly tested.
             </li>
           </ul>
         </li>
 
         <li>
-          2022
+          2022 - broad improvements to developer experience
           <ul>
             <li>
-              Constantly searching for and making changes to improve the speed
-              of deployments, tests, and PR checks to allow developers to spend
+              Constantly searched for and made changes to improve the speed of
+              deployments, tests, and PR checks to allow developers to spend
               less time waiting and more time doing.
             </li>
             <li>
-              Implement hosting and deployment patterns that enable continuous
-              delivery in new services using Kubernetes, Docker, Github Actions,
-              and Terraform. Train teams on how to build, operate, and maintain
-              CD pipelines and implement.
+              Implemented hosting and deployment patterns that enabled
+              continuous delivery in new services using Kubernetes, Docker,
+              Github Actions, and Terraform. Train teams on how to build,
+              operate, and maintain CD pipelines and implement applications
+              using patterns that are compatible with CD using backwards
+              compatibility.
             </li>
             <li>
-              Guide migration of primary application hosting from the deprecated
-              Azure Cloud Services to the more modern Azure App Services. This
-              required extensive optimization of network chattiness as App
-              Services were a bit more resource constrained. Specifically this
-              included optimizing the way the app uses Redis. I implemented a
-              layered caching strategy using Redis pub/sub and in-memory caching
-              to reduce the amount of Redis calls by 50%. This improved latency
-              of the web requests by over 50%.
+              Guided migration of primary application hosting from the
+              deprecated Azure Cloud Services to the more modern Azure App
+              Services. This required extensive optimization of network
+              chattiness as App Services were a bit more resource constrained.
+              Specifically this included optimizing the way the app uses Redis.
+              I implemented a layered caching strategy using Redis pub/sub and
+              in-memory caching to reduce the amount of Redis calls by 50%. This
+              improved latency of the web requests by over 50%.
             </li>
             <li>
-              Support a dozen product teams as they create and deploy new
-              software components. Educate them on building pipelines, automated
+              Supported a dozen product teams as they create and deploy new
+              software components. Educated on building pipelines, automated
               test suites, and monitoring and logging.
             </li>
-            <li>Automate deployment of Elasticsearch changes.</li>
+            <li>Automated deployment of Elasticsearch changes.</li>
             <li>
-              Automate creation of SQL Server container whenever database
-              changes are merged. This container is used for local integration
+              Automated creation of SQL Server container whenever database
+              changes were merged. This container is used for local integration
               and acceptance testing of database or Entity Framework code
               changes. Additionally this container is used in PR checks to speed
               them up when there are no database changes. Rather than building
@@ -167,33 +169,33 @@
         </li>
 
         <li>
-          2023
+          2023 - improving local development and speed of innovation
           <ul>
             <li>
-              Improve local monitoring for Redis with MiniProfiler to detect
+              Improved local monitoring for Redis with MiniProfiler to detect
               duplicate calls. Set up Seq to improve the local logging
               experience.
             </li>
             <li>
-              Participate in migration of Elasticsearch hosting from VMs to
+              Participated in migration of Elasticsearch hosting from VMs to
               Kubernetes using Elastic Cloud on Kubernetes. Set up monitoring
               and automated deployments for dozens of ECK clusters.
             </li>
             <li>
-              Reduce provisioning time for new services from days to hours by
+              Reduced provisioning time for new services from days to hours by
               creating reusable Github workflows, Helm charts, template
               repositories, and Nuget packages. Lead training sessions on use of
               these tools to empower teams to own their deployments and
               configuration.
             </li>
             <li>
-              Research and implement managed workload identity to allow
+              Researched and implemented managed workload identity to allow
               applications to access infrastructure without needing to use
               secrets. No more secret rotation or manual configuration changes!
             </li>
             <li>
-              Continue to advocate for and demonstrate automated testing and TDD
-              to allow increased speed and innovation while ensuring high
+              Continued to advocate for and demonstrate automated testing and
+              TDD to allow increased speed and innovation while ensuring high
               quality output.
             </li>
             <li>
@@ -208,10 +210,10 @@
               roll out of the improved local development experience.
             </li>
             <li>
-              Design overall modernization of development and deployment
+              Designed overall modernization of development and deployment
               practices, mainly consisting of deploying more parts of the system
               from version control instead of synchronizing from a shared
-              development environment. Remove cumbersome manual steps from
+              development environment. Removed cumbersome manual steps from
               various processes including database and localization deployments.
             </li>
           </ul>
@@ -222,9 +224,10 @@
     <li>
       Architecture team - October 2019 to May 2020
       <ul>
-        <li>Keeping dependencies up to date.</li>
-        <li>Planning for .NET Framework -> .NET 5 migrations.</li>
-        <li>Participate in large-scale database schema refactoring.</li>
+        <li>Planned for .NET Framework -> .NET 5 migrations.</li>
+        <li>
+          Participated in beginning of large-scale database schema refactoring.
+        </li>
       </ul>
     </li>
   </ul>
