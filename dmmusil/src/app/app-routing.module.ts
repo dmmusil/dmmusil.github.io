@@ -19,18 +19,16 @@ const routes: Routes = [
   {
     path: 'posts',
     component: MainComponent,
-    children: [
-      {
-        path: 'azure-sql-serverless',
-        component: AzureSqlServerlessComponent,
-        title: 'Azure SQL serverless cost control',
-      },
-      {
-        path: 'angular-on-github-pages',
-        component: AngularOnGithubPagesComponent,
-        title: 'Angular on Github Pages',
-      },
-    ],
+  },
+  {
+    path: 'posts/angular-on-github-pages',
+    component: AngularOnGithubPagesComponent,
+    title: 'Angular on Github Pages',
+  },
+  {
+    path: 'posts/azure-sql-serverless',
+    component: AzureSqlServerlessComponent,
+    title: 'Azure SQL serverless cost control',
   },
 ];
 
