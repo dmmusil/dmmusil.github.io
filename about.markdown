@@ -6,6 +6,12 @@ permalink: /about/
 
 ![](/assets/me.jpg){:style="display:block; margin-left:auto; margin-right:auto; border-radius: 50%"}
 
+### Intro
+
+Currently I'm a staff-level backend engineer at [Degreed](https://degreed.com/about) who focuses on developer experience and our DevOps transformation. I am passionate about making dev work more enjoyable by making things easier to use and faster to set up, change, and deploy.
+
+I live in the triangle area of central NC where I play lots golf and take the occasional trip to the beach or the mountains, or hop on a plane to go skiing in the winter.
+
 ### Summary
 
 Backend-focused full stack .NET engineer capable of owning the total SDLC
@@ -21,12 +27,6 @@ Backend-focused full stack .NET engineer capable of owning the total SDLC
 *   mentoring others on all of the above
 *   enough Angular experience to build front-ends with some CSS/designer help
 *   work closely with stakeholders to deliver value quickly using agile development practices
-
-### Intro
-
-Currently I'm a staff-level backend engineer at [Degreed](https://degreed.com/about) who focuses on developer experience and our DevOps transformation. I am passionate about making dev work more enjoyable by making things easier to use and faster to set up, change, and deploy.
-
-I live in the Finger Lakes region of New York where I spend the summers playing golf and enjoying all there is to do in the northeast and the winters skiing around New York, Vermont, and the west.
 
 #### Preferred tools
 
