@@ -30,15 +30,15 @@ I live in the Finger Lakes region of New York where I spend the summers playing 
 
 ##### Preferred tools
 
-*   C# | .NET Core/5/6 and ASP.NET Core | Docker | Kubernetes/AKS | SQL Server | Redis | PostgreSQL | Entity Framework | Terraform | Github Actions | Azure Pipelines | Datadog | Jetbrains IDEs and performance tools
+*   C#, .NET 6+ and ASP.NET Core, Docker, Kubernetes/AKS, SQL Server, Redis, PostgreSQL, Entity Framework, Terraform, Github Actions, Azure Pipelines, Datadog, Jetbrains IDEs and performance tools
 
 ##### Other daily drivers
 
-*   IIS | Azure App Service, Web jobs, Service Bus | .NET Framework | ASP.NET MVC
+*   IIS, Azure App Service, Web jobs, Service Bus, .NET Framework, ASP.NET MVC
 
 ##### Tech I've used at other jobs
 
-*   Angular | RavenDB | AWS EC2, Elastic Beanstalk
+*   Angular, RavenDB, AWS EC2, Elastic Beanstalk
 
 ##### Degreed - Staff Engineer I - March 2022 - present
 
