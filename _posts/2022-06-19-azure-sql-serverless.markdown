@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_link_source
 title:  "Cost control and cold start with Azure SQL Serverless"
 date:   2022-06-19 08:36:31 -0500
 ---
