@@ -4,9 +4,9 @@ title: About me
 permalink: /about/
 ---
 
-![](/assets/me.jpg)
+![](/assets/me.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
-##### Summary
+### Summary
 
 Backend-focused full stack .NET engineer capable of owning the total SDLC
 
@@ -22,27 +22,27 @@ Backend-focused full stack .NET engineer capable of owning the total SDLC
 *   enough Angular experience to build front-ends with some CSS/designer help
 *   work closely with stakeholders to deliver value quickly using agile development practices
 
-##### Intro
+### Intro
 
 Currently I'm a staff-level backend engineer at [Degreed](https://degreed.com/about) who focuses on developer experience and our DevOps transformation. I am passionate about making dev work more enjoyable by making things easier to use and faster to set up, change, and deploy.
 
 I live in the Finger Lakes region of New York where I spend the summers playing golf and enjoying all there is to do in the northeast and the winters skiing around New York, Vermont, and the west.
 
-##### Preferred tools
+### Preferred tools
 
 *   C#, .NET 6+ and ASP.NET Core, Docker, Kubernetes/AKS, SQL Server, Redis, PostgreSQL, Entity Framework, Terraform, Github Actions, Azure Pipelines, Datadog, Jetbrains IDEs and performance tools
 
-##### Other daily drivers
+### Other daily drivers
 
 *   IIS, Azure App Service, Web jobs, Service Bus, .NET Framework, ASP.NET MVC
 
-##### Tech I've used at other jobs
+### Tech I've used at other jobs
 
 *   Angular, RavenDB, AWS EC2, Elastic Beanstalk
 
-##### Degreed - Staff Engineer I - March 2022 - present
+### Degreed - Staff Engineer I - March 2022 - present
 
-##### Degreed - Backend Developer - October 2019 - March 2022
+### Degreed - Backend Developer - October 2019 - March 2022
 
 *   DevOps team - May 2020 to present
     
@@ -87,21 +87,21 @@ I live in the Finger Lakes region of New York where I spend the summers playing 
     *   Planned for .NET Framework -> .NET 5 migrations.
     *   Participated in beginning of large-scale database schema refactoring.
 
-##### Relias - Senior Software Engineer - March 2018 to October 2019
+### Relias - Senior Software Engineer - March 2018 to October 2019
 
-##### Relias - Software Engineer - March 2017 to March 2018
+### Relias - Software Engineer - March 2017 to March 2018
 
 *   Lead team developing apps in ASP.NET Core + Angular to allow medical clients to administer pre-hire [assessments](https://www.relias.com/product/assessments) to nurses.
 *   Co-lead backend chapter and regularly presented on ways to improve testability, architecture, and maintainability of our services.
 *   Developed initial implementation of message broker strategy to allow dev teams to communicate with other services asynchronously and reliably. This strategy was proven in production and quickly reached >100,000 messages daily.
 
-##### InspectionXpert - April 2013 to March 2017
+### InspectionXpert - April 2013 to March 2017
 
 *   Maintain and extend more than a half-dozen CAD integrations that automate data extraction from mechanical documents.
 *   Bring a new integrated SaaS product to market that allows quality managers to have real-time visibility into their quality process. Data previously extracted from mechanical drawings with other InspectionXpert products can be uploaded with one click.
 *   Learn about CI/CD by setting up Jenkins to build all of our products and automatically deploy to AWS Elastic Beanstalk and CloudFront.
 
-##### Extracurricular activities
+### Extracurricular activities
 
 *   Learning functional programming
     *   F#
