@@ -85,6 +85,8 @@ Backend-focused full stack .NET engineer capable of owning the total SDLC
         *   Continued to advocate for and demonstrate automated testing and TDD to allow increased speed and innovation while ensuring high quality output.
         *   Simplified management of local development environments with Docker Compose for running and managing all infrastructure dependencies. This includes Redis, Elasticsearch, SQL Server, and a custom messaging solution to allow the two data stores to stay in sync using the existing code and infrastructure. Provide automated tooling to set up and maintain local environments whenever new changes are submitted that affect the data or schemas. Produce and execute training and provide support for the roll out of the improved local development experience.
         *   Designed overall modernization of development and deployment practices, mainly consisting of deploying more parts of the system from version control instead of synchronizing from a shared development environment. Removed cumbersome manual steps from various processes including database and localization deployments.
+    *   2024 - .NET migration
+        *   Designed and deployed infrastructure migration strategy for upgrading main web application from .NET Framework to .NET 8 using YARP and ASP.NET Core. Allowed a no-downtime incremental migration of over 1000 API endpoints.
 *   Architecture team - October 2019 to May 2020
     *   Planned for .NET Framework -> .NET 5 migrations.
     *   Participated in beginning of large-scale database schema refactoring.
