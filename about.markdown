@@ -14,19 +14,20 @@ I live in the triangle area of central NC where I play lots golf and take the oc
 
 ### Summary
 
-Backend-focused full stack .NET engineer capable of owning the total SDLC
+Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
+*   work closely with stakeholders to deliver value quickly using agile development practices
+*   design systems for continuous delivery and continuous deployment, from code to infrastructure to deployment strategy
 *   infrastructure as code with Terraform
 *   continuous delivery pipelines with Github actions and Azure DevOps
-*   database design and deployment automation -- code first or database first
-*   local dev environment setup and maintenance -- Docker and Kubernetes
+*   database design and deployment automation -- code first or database first, EF Core, SSDT, or just plain SQL scripts. Experience with Red Gate SQL Compare tools.
+*   local dev environment setup and maintenance -- Docker and Kubernetes, (dev|test)containers
 *   experienced administering Kubernetes and developing/deploying applications to multitenant clusters
 *   all the required automated testing -- unit, integration, and e2e testing
 *   using TDD to ensure high coverage and quality
 *   logging, metrics, and APM from day one with OTel and Datadog
 *   mentoring others on all of the above
 *   enough Angular experience to build front-ends with some CSS/designer help
-*   work closely with stakeholders to deliver value quickly using agile development practices
 
 #### Preferred tools
 
