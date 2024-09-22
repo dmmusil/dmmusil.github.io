@@ -31,7 +31,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
 #### Preferred tools
 
-*   C#, .NET 6+ and ASP.NET Core, Docker, Kubernetes/AKS, SQL Server, Redis, PostgreSQL, Entity Framework, Terraform, Github Actions, Azure Pipelines, Datadog, Jetbrains IDEs and performance tools
+*   C#, .NET 6+ and ASP.NET Core, NCrunch, Docker, Kubernetes/AKS, SQL Server, Redis, PostgreSQL, Entity Framework, Terraform, Github Actions, Azure Pipelines, Datadog, Jetbrains IDEs and performance tools
 
 #### Other daily drivers
 
