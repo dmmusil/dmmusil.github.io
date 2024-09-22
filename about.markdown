@@ -103,8 +103,8 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
 #### InspectionXpert - April 2013 to March 2017
 
-*   Maintain and extend more than a half-dozen CAD integrations that automate data extraction from mechanical documents.
-*   Bring a new integrated SaaS product to market that allows quality managers to have real-time visibility into their quality process. Data previously extracted from mechanical drawings with other InspectionXpert products can be uploaded with one click.
+*   Maintain and extend more than a half-dozen CAD integrations that automate data extraction from engineering drawings.
+*   Bring a new integrated SaaS product to market that allows quality managers to have real-time visibility into their quality process. Data previously extracted from engineering drawings with other InspectionXpert products can be uploaded with one click.
 *   Learn about CI/CD by setting up Jenkins to build all of our products and automatically deploy to AWS Elastic Beanstalk and CloudFront.
 
 ### Extracurricular activities
