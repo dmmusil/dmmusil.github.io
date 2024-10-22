@@ -25,7 +25,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 *   experienced administering Kubernetes and developing/deploying applications to multitenant clusters
 *   all the required automated testing -- unit, integration, and e2e testing
 *   using TDD to ensure high coverage and quality
-*   logging, metrics, and APM from day one with OTel and Datadog
+*   logging, metrics, and APM from day one with Datadog
 *   mentoring others on all of the above
 *   enough Angular experience to build front-ends with some CSS/designer help
 
