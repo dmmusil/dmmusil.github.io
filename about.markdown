@@ -55,7 +55,9 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
       
     My team also provides SRE support to the rest of the engineering org. We are responsible for monitoring the health of the core platform and providing support to teams that need help with specific troubleshooting. I have developed a solid understanding of debugging systems through the use of logging, metrics, and APM via Datadog and am skilled at diagnosing issues and adding new data as needed to make SRE work more sustainable.
     *   2024 - .NET migration
-        *   Designed and deployed infrastructure migration strategy for upgrading main web application from .NET Framework to .NET 8 using YARP and ASP.NET Core with the strangler pattern. Allowed a no-downtime incremental migration of over 1000 API endpoints.    
+        *   Designed and deployed infrastructure migration strategy for upgrading main web application from .NET Framework to .NET 8 using YARP and ASP.NET Core with the strangler pattern. Allowed a no-downtime incremental migration of over 1000 API and MVC endpoints.
+        *   Consult with .NET migration team on challenges arising during the migration of endpoints from .NET Framework to ASP.NET Core 8.
+        *   Migrate nearly 20 .NET 8 apps from Windows App Service to Kubernetes. 
     *   2023 - improving local development and speed of innovation
         *   Improved local monitoring for Redis with MiniProfiler to detect duplicate calls. Set up Seq to improve the local logging experience.
         *   Participated in and supported migration of Elasticsearch hosting from VMs to Kubernetes using Elastic Cloud on Kubernetes. Set up monitoring and automated deployments for dozens of ECK clusters.
@@ -72,7 +74,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
         *   Automated deployment of Elasticsearch changes.
         *   Automated creation of SQL Server container whenever database changes were merged. This container is used for local integration and acceptance testing of database or Entity Framework code changes. Additionally this container is used in PR checks to speed them up when there are no database changes. Rather than building the database from scratch we can reuse the existing image to run tests against.
     *   2021 - planning for .NET migration and modular monolith
-        *   Identified and fixed performance issues that resulted in a 50% reduction in global response times. Cost savings from the change were nearly $4,000 per month in web server compute costs.
+        *   Identified and fixed performance issues that resulted in a 50% reduction in global response times. Cost savings from the change were nearly $4,000 (or about 40%) per month in web server compute costs.
         *   Member of architecture guild and subsequent architecture board. Frequent RFC contributor.
         *   Consulted on and supported .NET Framework -> .NET 5/6 migration of application components.
         *   Supported horizontal scale effort through automation and back-end code contribution. Added ability to deploy schema changes to an arbitrary number of databases defined in Cosmos DB documents.
