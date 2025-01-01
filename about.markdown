@@ -8,7 +8,7 @@ permalink: /about/
 
 ### Intro
 
-Currently I'm a staff-level backend engineer at [Degreed](https://degreed.com/about) who focuses on developer experience and our DevOps transformation. I am passionate about making dev work more enjoyable by making things easier to use and faster to set up, change, and deploy.
+Currently I'm a backend engineer at [Red Rover](https://redroverk12.com). Previously, I was a staff DevOps engineer at [Degreed](https://degreed.com/about). I am passionate about making dev work more enjoyable by making things easier to use and faster to set up, change, and deploy.
 
 I live in the triangle area of central NC where I play lots golf and take the occasional trip to the beach or the mountains, or hop on a plane to go skiing in the winter.
 
@@ -43,7 +43,11 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
 ### Experience
 
-#### Degreed - Staff Engineer I - March 2022 - present
+#### Red Rover - Senior Software Engineer - December 2024 - present
+
+* Help onboard to Datadog and act as Datadog SME
+
+#### Degreed - Staff Engineer I - March 2022 - November 2024
 
 #### Degreed - Backend Developer - October 2019 - March 2022
 
