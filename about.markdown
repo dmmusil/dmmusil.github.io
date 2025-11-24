@@ -21,7 +21,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 - infrastructure as code with Terraform
 - continuous delivery pipelines with Github actions and Azure DevOps
 - database design and deployment automation -- code first or database first, EF Core, SSDT, or just plain SQL scripts. Experience with Red Gate SQL Compare tools.
-- local dev environment setup and maintenance -- Docker and Kubernetes, (dev\|test)containers
+- local dev environment setup and maintenance -- Docker and Kubernetes, (dev\|test)containers, Aspire
 - experienced administering Kubernetes and developing/deploying applications to multitenant clusters
 - all the required automated testing -- unit, integration, and e2e testing
 - using TDD to ensure high coverage and quality
