@@ -51,7 +51,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
 #### Degreed - Backend Developer - October 2019 - March 2022
 
-- DevOps team - May 2020 to present
+- DevOps team - May 2020 to November 2024
 
   In early 2020 we identified the need to start a DevOps transformation as we weren't releasing often enough and had lots of opportunities to improve developer experience and productivity. Having a dedicated DevOps team is a bit of an anti-pattern, and the hope is that we will dissolve when our mission is complete. We want to modernize hosting and deployments to enable the fast flow that DevOps aims to achieve.
 
