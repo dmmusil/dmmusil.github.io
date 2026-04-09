@@ -25,7 +25,7 @@ email: dylan@musil.dev
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dylan.musil.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dmmusil
 
 # Build settings
