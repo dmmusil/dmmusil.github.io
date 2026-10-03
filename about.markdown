@@ -48,7 +48,7 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 - Onboard team to Datadog and act as Datadog SME.
 - Migrate full stack of applications to Kubernetes to save thousands of dollars per month and make it easier to deploy new apps.
 - Maintain 50 GB real-time cache to provide millisecond search results and reporting data.
-- Build features with GraphQL, .NET 8/10, EF Core, SQL Server, and React with complete, unit, component, and integration testing.
+- Build features with GraphQL, .NET 8/10, EF Core, SQL Server, and React with complete unit, component, and integration testing.
 - Tune SQL and tweak EF Core to address performance issues in hot queries and reports.
 - Learn and adopt agentic coding in early 2026, using a TDD workflow to produce trusted solutions.
 
