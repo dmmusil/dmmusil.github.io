@@ -45,8 +45,12 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
 
 #### Red Rover - Senior Software Engineer - December 2024 - present
 
-- Help onboard to Datadog and act as Datadog SME
+- Onboard team to Datadog and act as Datadog SME.
 - Migrate full stack of applications to Kubernetes to save thousands of dollars per month and make it easier to deploy new apps.
+- Maintain 50 GB real-time cache to provide millisecond search results and reporting data.
+- Build features with GraphQL, .NET 8/10, EF Core, SQL Server, and React with complete, unit, component, and integration testing.
+- Tune SQL and tweak EF Core to address performance issues in hot queries and reports.
+- Learn and adopt agentic coding in early 2026, using a TDD workflow to produce trusted solutions.
 
 #### Degreed - Staff Engineer I - March 2022 - November 2024
 
@@ -59,7 +63,6 @@ Backend-focused full stack .NET engineer capable of owning the entire SDLC
   I coordinate directly with the VP of DevSecOps and the architects to make sure that we are aligned and working together toward our long term goals of supporting a loosely coupled, global application that can be hosted in multiple clouds and continuously deployed.
 
   My team also provides SRE support to the rest of the engineering org. We are responsible for monitoring the health of the core platform and providing support to teams that need help with specific troubleshooting. I have developed a solid understanding of debugging systems through the use of logging, metrics, and APM via Datadog and am skilled at diagnosing issues and adding new data as needed to make SRE work more sustainable.
-
   - 2024 - .NET migration
     - Designed and deployed infrastructure migration strategy for upgrading main web application from .NET Framework to .NET 8 using YARP and ASP.NET Core with the strangler pattern. Allowed a no-downtime incremental migration of over 1000 API and MVC endpoints.
     - Consult with .NET migration team on challenges arising during the migration of endpoints from .NET Framework to ASP.NET Core 8.
